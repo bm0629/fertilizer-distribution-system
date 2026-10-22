@@ -1,0 +1,26 @@
+# Dependencies
+/backend/vendor/
+/frontend/node_modules/
+/frontend/dist/
+
+# Environment files (keep .env.example committed)
+/backend/.env
+/backend/.env.backup
+/backend/.phpunit.result.cache
+/frontend/.env
+/frontend/.env.local
+
+# Logs & runtime caches
+/backend/storage/logs/*.log
+/backend/storage/framework/cache/data/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+!/backend/storage/framework/cache/data/.gitignore
+!/backend/storage/framework/sessions/.gitignore
+!/backend/storage/framework/views/.gitignore
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
